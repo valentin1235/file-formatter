@@ -1,0 +1,60 @@
+Paragraph 0:
+    Sentence 0:
+        You
+        better
+        watch
+        out
+    Sentence 1:
+        You
+        better
+        not
+        cry
+    Sentence 2:
+        You
+        better
+        not
+        pout
+    Sentence 3:
+        I'm
+        telling
+        you
+        why
+
+Paragraph 1:
+    Sentence 0:
+        Santa
+        Clause
+        is
+        coming
+        to
+        town
+        for
+        reals
+    Sentence 1:
+        It's
+        no
+        Joke
+
+Paragraph 2:
+    Sentence 0:
+        He's
+        making
+        a
+        list
+    Sentence 1:
+        He's
+        checking
+        it
+        twice
+    Sentence 2:
+        Gonna
+        find
+        out
+        who's
+        naughty
+        and
+        nice
+    Sentence 3:
+        So
+        be
+        nice
