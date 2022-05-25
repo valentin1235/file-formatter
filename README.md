@@ -119,3 +119,7 @@ Paragraph 2:
         be
         nice
 ```
+
+## 이슈 로그
+### 상황
+- delimi
