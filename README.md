@@ -136,3 +136,5 @@ while (*delim != '\0') { /* set ascii validation */
 ```
 - 아스키 테이블 크기(127)만큼의 배열을 잡아두고 0(false)으로 초기화하고, delimiter에 해당하는 문자의 아스키 번수를 인덱스로 잡고 값을 1(true)로 초기화한다.
 - 문자열에 있는 문자를 하나하나 아스키 검증 배열에 넣어서 값이 1이면 delimiter로 판단하도록 한다.
+- `static char* tokenize_only_by_delim(char* str_or_null, const char* delim)` 함수 참고
+
