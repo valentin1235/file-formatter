@@ -121,5 +121,18 @@ Paragraph 2:
 ```
 
 ## 이슈 로그
-### 상황
-- delimi
+### delimiter 검증 이슈
+##### 상황
+- 문자열을 탐색하면서 하나의 문자가 매개변수로 받은 delimiter에 해당하는지 검증해야 하는 상황
+- 문자열의 길이가 n이고 delimiter가 m개가 있으면 검증하는데 O(n * m)의 시간복잡도를 가지게 되어 비효율적인 상황
+
+##### 해결
+```
+memset(is_delim, 0, 127);
+while (*delim != '\0') { /* set ascii validation */
+    is_delim[(int)*delim] = 1;
+    ++delim;
+}
+```
+- 아스키 테이블 크기(127)만큼의 배열을 잡아두고 0(false)으로 초기화하고, delimiter에 해당하는 문자의 아스키 번수를 인덱스로 잡고 값을 1(true)로 초기화한다.
+- 문자열에 있는 문자를 하나하나 아스키 검증 배열에 넣어서 값이 1이면 delimiter로 판단하도록 한다.
